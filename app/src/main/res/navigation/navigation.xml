@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/dataFragment">
+
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="com.example.monitoradordeestufa.dataFragment.DataFragment"
+        android:label="Luminosidade"
+        tools:layout="@layout/fragment_data"
+        />
+    <fragment
+        android:id="@+id/data2Fragment"
+        android:name="com.example.monitoradordeestufa.dataFragment.Data2Fragment"
+        android:label="Temperatura"
+        tools:layout="@layout/fragment_data2"/>
+</navigation>
